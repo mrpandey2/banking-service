@@ -1,6 +1,6 @@
-package com.eazybytes.accounts.repository;
+package com.bank.accounts.repository;
 
-import com.eazybytes.accounts.entity.Accounts;
+import com.bank.accounts.entity.Accounts;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

@@ -1,6 +1,6 @@
-package com.eazybytes.cards.exception;
+package com.bank.cards.exception;
 
-import com.eazybytes.cards.dto.ErrorResponseDto;
+import com.bank.cards.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

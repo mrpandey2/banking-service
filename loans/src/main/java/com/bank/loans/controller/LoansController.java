@@ -1,10 +1,10 @@
-package com.eazybytes.loans.controller;
+package com.bank.loans.controller;
 
-import com.eazybytes.loans.constants.LoansConstants;
-import com.eazybytes.loans.dto.ErrorResponseDto;
-import com.eazybytes.loans.dto.LoansDto;
-import com.eazybytes.loans.dto.ResponseDto;
-import com.eazybytes.loans.service.ILoansService;
+import com.bank.loans.constants.LoansConstants;
+import com.bank.loans.dto.ErrorResponseDto;
+import com.bank.loans.dto.LoansDto;
+import com.bank.loans.dto.ResponseDto;
+import com.bank.loans.service.ILoansService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

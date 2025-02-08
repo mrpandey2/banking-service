@@ -1,7 +1,7 @@
-package com.eazybytes.accounts.mapper;
+package com.bank.accounts.mapper;
 
-import com.eazybytes.accounts.dto.AccountsDto;
-import com.eazybytes.accounts.entity.Accounts;
+import com.bank.accounts.dto.AccountsDto;
+import com.bank.accounts.entity.Accounts;
 
 public class AccountsMapper {
 

@@ -1,6 +1,6 @@
-package com.eazybytes.accounts.repository;
+package com.bank.accounts.repository;
 
-import com.eazybytes.accounts.entity.Customer;
+import com.bank.accounts.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

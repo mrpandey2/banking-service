@@ -1,17 +1,17 @@
 package com.bank.accounts.service.impl;
 
-import com.bank.accounts.constants.AccountsConstants;
-import com.bank.accounts.dto.AccountsDto;
-import com.bank.accounts.dto.CustomerDto;
-import com.bank.accounts.entity.Accounts;
-import com.bank.accounts.entity.Customer;
-import com.bank.accounts.exception.CustomerAlreadyExistsException;
-import com.bank.accounts.exception.ResourceNotFoundException;
-import com.bank.accounts.mapper.AccountsMapper;
-import com.bank.accounts.mapper.CustomerMapper;
-import com.bank.accounts.repository.AccountsRepository;
-import com.bank.accounts.repository.CustomerRepository;
-import com.bank.accounts.service.IAccountsService;
+import com.eazybytes.accounts.constants.AccountsConstants;
+import com.eazybytes.accounts.dto.AccountsDto;
+import com.eazybytes.accounts.dto.CustomerDto;
+import com.eazybytes.accounts.entity.Accounts;
+import com.eazybytes.accounts.entity.Customer;
+import com.eazybytes.accounts.exception.CustomerAlreadyExistsException;
+import com.eazybytes.accounts.exception.ResourceNotFoundException;
+import com.eazybytes.accounts.mapper.AccountsMapper;
+import com.eazybytes.accounts.mapper.CustomerMapper;
+import com.eazybytes.accounts.repository.AccountsRepository;
+import com.eazybytes.accounts.repository.CustomerRepository;
+import com.eazybytes.accounts.service.IAccountsService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

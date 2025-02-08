@@ -1,6 +1,6 @@
-package com.eazybytes.accounts.service;
+package com.bank.accounts.service;
 
-import com.eazybytes.accounts.dto.CustomerDto;
+import com.bank.accounts.dto.CustomerDto;
 
 public interface IAccountsService {
 

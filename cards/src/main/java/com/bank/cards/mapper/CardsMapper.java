@@ -1,7 +1,7 @@
-package com.eazybytes.cards.mapper;
+package com.bank.cards.mapper;
 
-import com.eazybytes.cards.dto.CardsDto;
-import com.eazybytes.cards.entity.Cards;
+import com.bank.cards.dto.CardsDto;
+import com.bank.cards.entity.Cards;
 
 public class CardsMapper {
 

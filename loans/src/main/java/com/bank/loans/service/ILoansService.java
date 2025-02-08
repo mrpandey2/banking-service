@@ -1,6 +1,6 @@
-package com.eazybytes.loans.service;
+package com.bank.loans.service;
 
-import com.eazybytes.loans.dto.LoansDto;
+import com.bank.loans.dto.LoansDto;
 
 public interface ILoansService {
 

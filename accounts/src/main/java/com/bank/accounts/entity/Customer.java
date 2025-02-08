@@ -1,11 +1,12 @@
-package com.eazybytes.accounts.entity;
+package com.bank.accounts.entity;
 
+import com.bank.accounts.entity.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
 @Getter @Setter @ToString @AllArgsConstructor @NoArgsConstructor
-public class Customer extends  BaseEntity {
+public class Customer extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

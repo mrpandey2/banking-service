@@ -1,6 +1,6 @@
-package com.eazybytes.accounts.exception;
+package com.bank.accounts.exception;
 
-import com.eazybytes.accounts.dto.ErrorResponseDto;
+import com.bank.accounts.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
@@ -47,9 +47,9 @@ public class GlobalExceptionHandler  extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(errorResponseDTO, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<ErrorResponseDto> handleResourceNotFoundException(ResourceNotFoundException exception,
-                                                                                 WebRequest webRequest) {
+    @ExceptionHandler(com.bank.accounts.exception.ResourceNotFoundException.class)
+    public ResponseEntity<ErrorResponseDto> handleResourceNotFoundException(com.bank.accounts.exception.ResourceNotFoundException exception,
+                                                                            WebRequest webRequest) {
         ErrorResponseDto errorResponseDTO = new ErrorResponseDto(
                 webRequest.getDescription(false),
                 HttpStatus.NOT_FOUND,
